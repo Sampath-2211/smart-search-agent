@@ -34,6 +34,8 @@ The agent operates on a graph-based workflow:
 
 3.  **Set up API Keys:**
     Create a `.env` file in the root directory:
+    python3 -m venv venv
+    source venv/bin/activate
     ```env
     GROQ_API_KEY=gsk_...
     TAVILY_API_KEY=tvly_...
